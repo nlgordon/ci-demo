@@ -6,6 +6,6 @@ describe("Example suite", function() {
     });
 
     it("trueAnd false should return false", function() {
-        expect(Example.trueAnd(false)).toEqual(false);
+        expect(Example.trueAnd(false)).toEqual(true);
     });
 });
