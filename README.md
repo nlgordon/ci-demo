@@ -10,3 +10,4 @@ npm test
 
 ## Travis CI link
 https://travis-ci.org/nlgordon/ci-demo
+
