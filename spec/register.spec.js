@@ -9,4 +9,9 @@ describe("Register functionality", function() {
     ourRegister.alice=100;
     expect(ourRegister.display()).toEqual("100")
   })
+  it("Adding 0 should not change total", function() {
+      var register = new Register();
+      register.addAmount(0);
+      expect(register.display()).toEqual("0.00");
+  });
 });
