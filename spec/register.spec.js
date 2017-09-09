@@ -12,6 +12,6 @@ describe("Register functionality", function() {
   it("Adding 0 should not change total", function() {
       var register = new Register();
       register.addAmount(0);
-      expect(register.display()).toEqual("0.00");
+      expect(register.display()).toEqual("0");
   });
 });
