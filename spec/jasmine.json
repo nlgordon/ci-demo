@@ -1,6 +1,7 @@
 {
   "spec_dir": "spec",
   "spec_files": [
-    "example.spec.js"
+    "example.spec.js",
+    "register.spec.js"
   ]
 }
